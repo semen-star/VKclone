@@ -1,8 +1,5 @@
 (function(){
   'use strict';
-  // По ТЗ функциональность кнопок/меню/форм не требуется.
-  // Единственное исключение — раскрытие бокового меню на мобильных,
-  // это часть адаптивной вёрстки, а не функциональность интерфейса ВК.
 
   const burgerBtn = document.getElementById('burgerBtn');
   const leftCol = document.getElementById('leftCol');
