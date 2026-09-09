@@ -10,16 +10,24 @@
 
 <header class="topbar">
   <button class="burger" id="burgerBtn" aria-label="Меню">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M3 6h18M3 12h18M3 18h18"/>
+    </svg>
   </button>
 
   <a class="logo" href="#" aria-label="ВКонтакте">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6"/><path d="M13.1 17.2c-4.7 0-7.4-3.2-7.5-8.6h2.4c.1 3.9 1.8 5.6 3.1 5.9V8.6h2.3v3.4c1.3-.1 2.7-1.7 3.1-3.4h2.2c-.4 2.1-1.9 3.7-3 4.4 1.1.5 2.8 1.9 3.4 4.2h-2.5c-.5-1.6-1.7-2.9-3.3-3v3z"/></svg>
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <rect width="24" height="24" rx="6"/>
+      <path d="M13.1 17.2c-4.7 0-7.4-3.2-7.5-8.6h2.4c.1 3.9 1.8 5.6 3.1 5.9V8.6h2.3v3.4c1.3-.1 2.7-1.7 3.1-3.4h2.2c-.4 2.1-1.9 3.7-3 4.4 1.1.5 2.8 1.9 3.4 4.2h-2.5c-.5-1.6-1.7-2.9-3.3-3v3z"/>
+    </svg>
     <span>ВКонтакте</span>
   </a>
 
   <label class="search" aria-label="Поиск">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="11" cy="11" r="7"/>
+      <path d="m21 21-4.35-4.35"/>
+    </svg>
     <input type="text" placeholder="Поиск" readonly>
   </label>
 
@@ -36,10 +44,24 @@
 <div class="page">
   <aside class="left-col" id="leftCol">
     <nav class="left-nav">
-      <a class="nav-item is-active" href="#"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg>Профиль</a>
-      <a class="nav-item" href="#"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16"/></svg>Лента</a>
-      <a class="nav-item" href="#"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Мессенджер</a>
-      <a class="nav-item" href="#"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2"/><path d="M2.5 20c0-3.3 2.9-5.5 6.5-5.5s6.5 2.2 6.5 5.5M17.5 8.5a2.6 2.6 0 0 0-2.1 1.1M15.5 14.7c2.9.4 5 2.2 5 5.3"/></svg>Друзья</a>
+      <a class="nav-item is-active" href="#">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="8" r="4"/>
+          <path d="M4 21c0-4 4-6 8-6s8 2 8 6"/>
+        </svg>Профиль</a>
+      <a class="nav-item" href="#">
+        <svg viewBox="0 0 24 24">
+          <rect x="4" y="4" width="16" height="16" rx="2"/>
+          <path d="M4 10h16"/></svg>Лента</a>
+      <a class="nav-item" href="#">
+        <svg viewBox="0 0 24 24">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+        </svg>Мессенджер</a>
+      <a class="nav-item" href="#">
+        <svg viewBox="0 0 24 24">
+        <circle cx="9" cy="8" r="3.2"/>
+        <path d="M2.5 20c0-3.3 2.9-5.5 6.5-5.5s6.5 2.2 6.5 5.5M17.5 8.5a2.6 2.6 0 0 0-2.1 1.1M15.5 14.7c2.9.4 5 2.2 5 5.3"/>
+      </svg>Друзья</a>
       <a class="nav-item" href="#"><svg viewBox="0 0 24 24"><circle cx="7" cy="9" r="3"/><circle cx="17" cy="9" r="3"/><path d="M2.5 20c0-3 2-5 4.5-5s4.5 2 4.5 5M12.5 20c0-3 2-5 4.5-5s4.5 2 4.5 5"/></svg>Сообщества</a>
       <a class="nav-item" href="#"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M8 15V9m4 6v-3m4 3V7"/></svg>Музыка</a>
       <div class="nav-sep"></div>
@@ -73,18 +95,9 @@
             <svg class="verified" viewBox="0 0 24 24" aria-label="Подтверждено"><path d="m4 12 5 5L20 6"/></svg>
           </div>
 
-          <div class="player-row" aria-label="Сейчас играет">
-            <span>4:48</span><span class="player-track"><span></span></span><span>9:42</span>
-            <button aria-label="Повтор"><svg viewBox="0 0 24 24"><path d="M17 1l4 4-4 4M3 11V9a4 4 0 0 1 4-4h14M7 23l-4-4 4-4M21 13v2a4 4 0 0 1-4 4H3"/></svg></button>
-            <button aria-label="Следующий"><svg viewBox="0 0 24 24"><path d="M5 4l10 8-10 8V4Zm14 1v14"/></svg></button>
-            <button aria-label="Пауза"><svg class="pause" viewBox="0 0 24 24"><path d="M7 5h3v14H7zM14 5h3v14h-3z"/></svg></button>
-            <button aria-label="Воспроизвести"><svg viewBox="0 0 24 24"><path d="m6 3 14 9-14 9V3z"/></svg></button>
-            <button aria-label="Повторить"><svg viewBox="0 0 24 24"><path d="M23 4v6h-6M20.5 15a9 9 0 1 1-2.1-9.4L23 10"/></svg></button>
-          </div>
-
           <div class="info-line">
             <span><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg>Магнитогорск</span>
-            <span><svg viewBox="0 0 24 24"><path d="M20 7h-3V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v9h18V9a2 2 0 0 0-2-2ZM9 7V5h6v2"/></svg>МГТУ им. Г. И. Но...</span>
+            <span><svg viewBox="0 0 24 24"><path d="M20 7h-3V5a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v2H4a2 2 0 0 0-2 2v9h18V9a2 2 0 0 0-2-2ZM9 7V5h6v2"/></svg>МГТУ им. Г. И. Носова</span>
             <span><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>Подробнее</span>
           </div>
           <p class="profile-description">Без цели, Без плана, Без конечного пункта назначения</p>
@@ -107,12 +120,12 @@
       </nav>
 
       <div class="photo-grid">
-        <img src="images/photoes on gallery/first.webp" alt="Фото из галереи">
+        <img src="images/photoes on gallery/last.webp" alt="Фото из галереи">
         <img src="images/photoes on gallery/second.webp" alt="Фото из галереи">
         <img src="images/photoes on gallery/third.webp" alt="Фото из галереи">
         <img src="images/photoes on gallery/fourth.webp" alt="Фото из галереи">
         <img src="images/photoes on gallery/fifth.webp" alt="Фото из галереи">
-        <img src="images/photoes on gallery/last.webp" alt="Фото из галереи">
+        <img src="images/photoes on gallery/first.webp" alt="Фото из галереи">
       </div>
     </section>
 
@@ -126,7 +139,7 @@
     <section class="wall-post">
       <div class="wall-head">
         <img src="images/ava.webp" alt="Семён Стариков">
-        <div><div class="wall-author">Семён Стариков <span>🐧</span> <svg viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></svg></div><div class="wall-source">↪ <b>Телекомпания ТВ-ИН Магнитогорск</b></div></div>
+        <div><div class="wall-author">Семён Стариков <span>🐧</span> <svg viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></svg></div></div>
         <button class="post-more" aria-label="Ещё">•••</button>
       </div>
       <div class="post-photo"><img src="images/post.webp" alt="Фото публикации"></div>
@@ -143,18 +156,18 @@
 
       <ul class="comment-list">
         <li class="comment">
-          <img src="images/ava.webp" alt="Валерия Зызова">
-          <div class="comment-body"><div class="comment-name">Валерия Зызова</div><p>Красавчик 💔</p><div class="comment-meta"><span>6 авг 2023</span><a href="#">Ответить</a><a href="#">Поделиться</a></div></div>
+          <img src="images/icons peoples/woman.png" alt="Валерия Зызова">
+          <div class="comment-body"><div class="comment-name">Валерия Зызова</div><p>Круто!!!</p><div class="comment-meta"><span>6 авг 2023</span><a href="#">Ответить</a><a href="#">Поделиться</a></div></div>
           <span class="comment-like"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>1</span>
         </li>
         <li class="comment">
-          <img src="images/ava.webp" alt="Людмила Андреева">
-          <div class="comment-body"><div class="comment-name">Людмила Андреева</div><p>Мой любимый старший внук. Моя гордость.</p><div class="comment-meta"><span>6 авг 2023</span><a href="#">Ответить</a><a href="#">Поделиться</a></div></div>
+          <img src="images/icons peoples/woman.png" alt="Людмила Андреева">
+          <div class="comment-body"><div class="comment-name">Людмила Андреева</div><p>Отдых всегда нужен! Особенно в приятной компании</p><div class="comment-meta"><span>6 авг 2023</span><a href="#">Ответить</a><a href="#">Поделиться</a></div></div>
           <span class="comment-like"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>1</span>
         </li>
         <li class="comment">
-          <img src="images/ava.webp" alt="Татьяна Старикова">
-          <div class="comment-body"><div class="comment-name">Татьяна Старикова</div><p>Взрослый мой мальчишка, я так сильно тебя люблю. Ты моя гордость и радость, моя опора и поддержка. У тебя обязательно все получится!!!</p><div class="comment-meta"><span>6 авг 2023</span><a href="#">Ответить</a><a href="#">Поделиться</a></div></div>
+          <img src="images/icons peoples/woman.png" alt="Татьяна Старикова">
+          <div class="comment-body"><div class="comment-name">Татьяна Старикова</div><p>Хорошо вам провести время)</p><div class="comment-meta"><span>6 авг 2023</span><a href="#">Ответить</a><a href="#">Поделиться</a></div></div>
           <span class="comment-like"><svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8Z"/></svg>2</span>
         </li>
       </ul>
@@ -171,21 +184,48 @@
 
   <aside class="right-col">
     <div class="widget"><div class="widget-head">Подписчики <span>128</span></div><div class="avatar-grid">
-      <a href="#"><img src="https://i.pravatar.cc/120?img=33" alt=""><span>Милана</span></a><a href="#"><img src="https://i.pravatar.cc/120?img=44" alt=""><span>Любовь</span></a><a href="#"><img src="https://i.pravatar.cc/120?img=25" alt=""><span>Михаил</span></a><a href="#"><img src="https://i.pravatar.cc/120?img=45" alt=""><span>Кирилл</span></a>
-    </div></div>
-    <div class="widget"><div class="widget-head">Друзья <span>180</span></div><div class="avatar-grid">
-      <a href="#"><img src="https://i.pravatar.cc/120?img=5" alt=""><span>Кристина</span></a><a href="#"><img src="https://i.pravatar.cc/120?img=64" alt=""><span>Татьяна</span></a><a href="#"><img src="https://i.pravatar.cc/120?img=25" alt=""><span>Виктория</span></a><a href="#"><img src="https://i.pravatar.cc/120?img=45" alt=""><span>Никита</span></a>
+      <a href="#">
+        <img src="images/icons peoples/woman.png" alt="">
+        <span>Милана</span>
+      </a>
+      <a href="#">
+          <img src="images/icons peoples/woman.png" alt="">
+          <span>Любовь</span>
+        </a>
+        <a href="#">
+          <img src="images/icons peoples/man.png" alt="">
+          <span>Михаил</span>
+        </a>
+        <a href="#">
+            <img src="images/icons peoples/man.png" alt="">
+            <span>Кирилл</span>
+          </a>
+    </div>
+  </div>
+    <div class="widget">
+      <div class="widget-head">Друзья <span>180</span></div><div class="avatar-grid">
+      <a href="#">
+        <img src="images/icons peoples/woman.png" alt="">
+        <span>Кристина</span>
+      </a>
+      <a href="#">
+        <img src="images/icons peoples/woman.png" alt="">
+        <span>Татьяна</span>
+      </a>
+      <a href="#">
+        <img src="images/icons peoples/woman.png" alt="">
+        <span>Виктория</span>
+      </a>
+      <a href="#">
+        <img src="images/icons peoples/man.png" alt="">
+        <span>Никита</span></a>
     </div></div>
     <div class="widget"><div class="widget-head">Подарки <span>56</span></div><div class="gift-grid"><span>🐭</span><span>🎁</span><span>🧟</span></div><div class="gift-note">♙ Подарки видны не всем · <a href="#">Изменить</a></div></div>
     <div class="widget"><div class="widget-head">Подписки <span>30</span></div><ul class="sub-list">
-      <li><img src="images/subscribes/кафедра мемологии.jpg" alt=""><div><a href="https://vk.ru/mgtu_mem" target="_blank" rel="noopener noreferrer">Кафедра мемологии МГТУ им. Г.И. Носова</a></div></li>
-      <li><img src="images/subscribes/Информационная безопасность.jpg" alt=""><div><a href="https://vk.ru/informationsecurity_nmstu" target="_blank" rel="noopener noreferrer">Информационная безопасность МГТУ им. Г.И.Носова</a></div></li>
-      <li><img src="images/subscribes/Институт энергетики.jpg" alt=""><div><a href="https://vk.ru/ieias_mgtu" target="_blank" rel="noopener noreferrer">Институт энергетики и автоматизированных систем</a></div></li>
+      <li><img src="images/subscribes/кафедра мемологии.webp" alt=""><div><a href="https://vk.ru/mgtu_mem" target="_blank" rel="noopener noreferrer">Кафедра мемологии МГТУ им. Г.И. Носова</a></div></li>
+      <li><img src="images/subscribes/Информационная безопасность.webp" alt=""><div><a href="https://vk.ru/informationsecurity_nmstu" target="_blank" rel="noopener noreferrer">Информационная безопасность МГТУ им. Г.И.Носова</a></div></li>
+      <li><img src="images/subscribes/Институт энергетики.webp" alt=""><div><a href="https://vk.ru/ieias_mgtu" target="_blank" rel="noopener noreferrer">Институт энергетики и автоматизированных систем</a></div></li>
     </ul></div>
-  </aside>
-
-  <aside class="stories-col">
-    <img src="https://i.pravatar.cc/80?img=1" alt=""><img src="https://i.pravatar.cc/80?img=9" alt=""><img src="https://i.pravatar.cc/80?img=20" alt=""><img src="https://i.pravatar.cc/80?img=31" alt=""><img src="https://i.pravatar.cc/80?img=41" alt=""><img src="https://i.pravatar.cc/80?img=49" alt="">
   </aside>
 </div>
 <script src="script.js"></script>

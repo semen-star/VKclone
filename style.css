@@ -141,7 +141,7 @@ svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
 .wall-author span{font-size:11px}
 .wall-author svg{width:12px;height:12px;color:var(--secondary);vertical-align:-2px}
 .wall-source{margin-top:3px;color:var(--secondary);font-size:10.5px}
-.wall-source b{color:var(--text);font-weight:600}
+
 .post-more{margin-left:auto;border:0;background:transparent;color:var(--muted);font-size:15px;letter-spacing:1px;padding:4px}
 .post-photo{background:#000}
 .post-photo img{width:100%;height:auto;max-height:460px;object-fit:cover}
